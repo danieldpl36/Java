@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Exercicios1 {
     /*
@@ -86,26 +87,25 @@ public class Exercicios1 {
      * }
      */
 
-    /* 
-    public static void main(String[] args) {
-        var scanner = new Scanner(System.in);
-        System.out.println("Digite um numero: ");
-        var num1 = scanner.nextInt();
-        System.out.println("Digite segundo numero : ");
-        var num2 = scanner.nextInt();
-        System.out.println("Deseja par ou impar? ");
-        String opcao = scanner.next();
+    /*
+     * public static void main(String[] args) {
+     * var scanner = new Scanner(System.in);
+     * System.out.println("Digite um numero: ");
+     * var num1 = scanner.nextInt();
+     * System.out.println("Digite segundo numero : ");
+     * var num2 = scanner.nextInt();
+     * System.out.println("Deseja par ou impar? ");
+     * String opcao = scanner.next();
+     * 
+     * for (var x = num1; x <= num2; x++) {
+     * var calculo = x % 2;
+     * 
+     * if ((calculo == 0) && (opcao.equals("par"))) {
+     * System.out.println(x);
+     * } else if ((calculo > 0) && (opcao.equals("impar")))
+     * System.out.println(x);
+     * }
+     * }
+     */
 
-        for (var x = num1; x <= num2; x++) {
-            var calculo = x % 2;
-
-            if ((calculo == 0) && (opcao.equals("par"))) {
-                System.out.println(x);
-            } else if ((calculo > 0) && (opcao.equals("impar")))
-                System.out.println(x);
-        }
-    }
-         */
-
-    
-}
+} 
