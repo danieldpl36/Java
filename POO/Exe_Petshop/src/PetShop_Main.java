@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class PetShop_Main {
     private final static Scanner scanner = new Scanner(System.in);
     private final static PetMachine petMachine = new PetMachine();
 
