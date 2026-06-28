@@ -8,7 +8,7 @@ public class Banco_Main {
 
     public static void main(String[] args) {
 
-        var opcao = 1;
+        int opcao = 1;
         do {
             System.out.println("*** Escolha uma das opçoes ***");
             System.out.println("1. Consultar saldo");
@@ -27,6 +27,7 @@ public class Banco_Main {
                 case 4 -> setSaque();
                 case 5 -> setPagamento();
                 case 6 -> getSituacaoChequeEspecial();
+                default -> System.out.println("Opçao invalida!");
             }
         } while (opcao != 0);
     }
