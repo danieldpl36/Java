@@ -1,3 +1,8 @@
+* abstract  --- nao pode ser instanciada (Generica)
+* sealed --- controle de herança
+* final --- ninguém mais pode herdar delas
+* non-sealed --- qualquer um pode herdar daqui para frente
+
 ## Herança
 
 A herança ocorre quando uma classe herda atributos e métodos de uma ou mais classes. Ela pode se dividir em 2 tipos:
@@ -5,6 +10,8 @@ A herança ocorre quando uma classe herda atributos e métodos de uma ou mais cl
 - Herança simples: classe herda atributos e métodos de apenas uma classe.
 
 - Herança múltipla: classe herda atributos e métodos de duas ou mais classes.
+
+![alt text](image-3.png)
 
 ![alt text](image-2.png)
 
